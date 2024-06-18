@@ -1,0 +1,24 @@
+<div class="ai-transform-button-panel">
+    <button id="ai-transform-button">AI Transform</button>
+</div>
+<script type="text/javascript">
+    AJS.$(document).ready(function() {
+        AJS.$('#ai-transform-button').click(function() {
+            var description = AJS.$('#description').val();
+            // Call your LLM API here with the description
+            // Replace the description field value with the transformed data
+            AJS.$.ajax({
+                url: '#################',  // Your LLM API endpoint
+                type: 'POST',
+                data: JSON.stringify({ description: description }),
+                contentType: 'application/json',
+                success: function(data) {
+                    AJS.$('#description').val(data.transformedDescription);
+                },
+                error: function(error) {
+                    console.error('Error:', error);
+                }
+            });
+        });
+    });
+</script>

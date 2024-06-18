@@ -1,0 +1,4 @@
+com\example\aitransform\config\AiTransformPluginConfig.class
+com\example\aitransform\config\MyPluginJavaConfig.class
+com\example\aitransform\api\MyPluginComponent.class
+com\example\aitransform\impl\MyPluginComponentImpl.class

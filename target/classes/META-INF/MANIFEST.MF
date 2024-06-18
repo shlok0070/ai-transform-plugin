@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Atlassian-Build-Date: 2024-06-18T22:55:04+0530
+Atlassian-Plugin-Key: com.example.ai-transform-plugin
+Bnd-LastModified: 1718731506125
+Build-Jdk: 1.8.0_411
+Built-By: shail
+Bundle-Description: This is the com.example:ai-transform-plugin plugin f
+ or Atlassian JIRA.
+Bundle-DocURL: http://www.example.com/
+Bundle-ManifestVersion: 2
+Bundle-Name: ai-transform-plugin
+Bundle-SymbolicName: com.example.ai-transform-plugin
+Bundle-Vendor: Example Company
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.example.aitransform.api;version="1.0.0"
+Import-Package: org.eclipse.gemini.blueprint.context;resolution:=optiona
+ l,org.eclipse.gemini.blueprint.service.exporter;resolution:=optional,or
+ g.eclipse.gemini.blueprint.service.exporter.support;resolution:=optiona
+ l,org.eclipse.gemini.blueprint.service.importer.support;resolution:=opt
+ ional,com.atlassian.annotations.nonnull,com.atlassian.plugin,com.atlass
+ ian.plugin.module,com.atlassian.plugin.osgi.external,com.atlassian.plug
+ in.spring.scanner.annotation.component,com.atlassian.sal.api,com.exampl
+ e.aitransform.api,javax.annotation,org.osgi.framework,org.slf4j,org.spr
+ ingframework.beans,org.springframework.beans.factory,org.springframewor
+ k.beans.factory.annotation,org.springframework.beans.factory.config,org
+ .springframework.cglib.core,org.springframework.cglib.proxy,org.springf
+ ramework.cglib.reflect,org.springframework.context,org.springframework.
+ context.annotation,org.springframework.core.type,org.springframework.we
+ b.client
+Spring-Context: *
+Tool: Bnd-3.5.0.201709291849
